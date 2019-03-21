@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from pandas import DataFrame,Series
+from pandas import DataFrame, Series
 import matplotlib.pyplot as plt
 import sys
 import io
@@ -10,6 +10,7 @@ with open(filename, 'r', encoding='UTF-8-SIG') as f:
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 print(df)
 # df = pd.DataFrame(np.random.randn(4,4),index = list('ABCD'),columns=list('OPKL'))
-#print(df)
-df.plot('报告期','净利润增长率%',kind='line',title='xhc')
+# print(df)
+df.plot('报告期', '净利润增长率%', kind='line', title='xhc')
+df.plot('报告期', '净利润增长率%', kind='line', title='xhc')
 plt.show()
