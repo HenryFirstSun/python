@@ -1,1 +1,1 @@
-1
+learn python for stock analysis
