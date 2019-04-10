@@ -394,4 +394,4 @@ for i in itertools.combinations(test_data, 2):
 test_data = 'opq'
 for i in itertools.permutations(test_data, 3):
     print(i)
-#17.10文件读写，参照chapter10
+#17.10文件读写，参照 python 入门到实践chapter10
